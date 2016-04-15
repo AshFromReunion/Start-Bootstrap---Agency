@@ -1,0 +1,186 @@
+#contact {
+    background-image: url(../img/map-image.png);
+    background-color: #222222;
+}
+
+#contact h2 {
+    color: white;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.espace-bloc {
+    padding: 140px 0;
+}
+
+.fond-gris {
+    background-color: #f7f7f7;
+}
+
+header {
+    background-image: url(../img/header-bg.jpg);
+    height: 100vh;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+header .navbar-header .navbar-brand {
+    color: #fed136;
+}
+
+.container h1 {
+    font-size: 80px;
+    color: white;
+}
+
+header .container h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.margin-header {
+    margin-top: 200px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover,
+header .navbar-header .navbar-brand:hover {
+    color: #fed136;
+}
+
+.btn-default {
+    background-color: #fed136;
+    color: white;
+    border: none;
+}
+
+#service .fa {
+    font-size: 60px;
+    background-color: #fed136;
+    padding: 20px 0;
+    border-radius: 150px;
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    color: #777777;
+}
+
+section .container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+section .container h3 {
+    font-weight: bold;
+}
+
+.margin-about {
+    margin-bottom: 120px;
+}
+
+#about img {
+    border: 5px solid #f1f1f1;
+}
+
+.texte-jaune {
+    background-color: #fed136;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    color: white;
+    font-size: 30px;
+    padding: 40px 0 0 0;
+    border: 5px solid #f1f1f1;
+}
+
+.container .no-padding {
+    padding: 0;
+}
+
+#team img {
+    border: 5px solid white;
+}
+
+#team .fa,
+footer .fa {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 0 0 0;
+}
+
+.espace-bloc-leger {
+    padding: 50px 0;
+}
+
+#contact input {
+    margin-bottom: 23px;
+}
+
+.margin-top {
+    margin-top: 70px;
+}
+
+footer a {
+    color: #fed136;
+    font-weight: bold;
+}
+
+footer p {
+    color: #333333;
+    margin: 0;
+    line-height: 40px;
+}
+
+footer a {
+    line-height: 40px;
+}
+
+body #about .hr {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 2px;
+    background-color: #f1f1f1;
+    height: 1400px;
+    left: 50%;
+    z-index: -1;
+}
+
+.margin-bottom-titre {
+    margin-bottom: 80px;
+}
+
+.fond-blanc {
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.container .margin-para {
+    margin-top: 30px;
+}
+
+.container .no-margin {
+    margin: 0;
+}
