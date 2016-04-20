@@ -1,0 +1,180 @@
+$fond-principale: #222;
+$couleur-primaire: #00cbcb;
+$couleur-secondaire: #CCC;
+$margin: 50px;
+.jumbotron {
+    background: url(../img/header/1.png) no-repeat;
+    height: 100vh;
+    padding: 240px 0;
+    min-height: 600px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    font-family: fantasy;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+.container .navbar-right li a,
+.container .navbar-brand {
+    color: white;
+}
+
+.jumbotron .container .color-primaire {
+    color: $couleur-primaire;
+}
+
+.jumbotron .container .color-secondaire {
+    color: $couleur-secondaire;
+}
+
+.espace-bloc {
+    padding: 50px 0;
+}
+
+.container .chevron {
+    position: relative;
+    bottom: 5px;
+}
+
+.color-principale {
+    color: $fond-principale;
+}
+
+.container .fa-graduation-cap,
+.container .fa-pencil,
+.container .fa-comment {
+    font-size: 50px;
+    background-color: $couleur-primaire;
+    color: #222;
+    padding-top: 25px;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.container .fa-envelope {
+    font-size: 50px;
+    background-color: $fond-principale;
+    color: $couleur-primaire;
+    padding-top: 25px;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+#contact h2 {
+    color: white;
+}
+
+h2 {
+    margin-bottom: 80px;
+}
+
+section .color-primaire {
+    color: $couleur-primaire;
+}
+
+h3 {
+    color: $couleur-primaire;
+    font-weight: bold;
+}
+
+.espace-formation {
+    margin-bottom: 80px;
+}
+
+#formation hr {
+    position: absolute;
+    border: 1px solid $couleur-primaire;
+    height: 885px;
+    left: 50%;
+}
+
+#formation img {
+    border: 5px solid $couleur-primaire;
+}
+
+#formation {
+    background-color: #222;
+    color: white;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+#portfolio {
+    background-color: $couleur-secondaire;
+}
+
+#portfolio h2 {
+    color: #222;
+    font-weight: bold;
+}
+
+#reseaux {
+    background-image: url(../img/sociaux/1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+}
+
+.facebook {
+    background-color: #3b5997;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+.github {
+    background-color: #222;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+.google-plus {
+    background-color: #dd4e42;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+#presentation {
+    background-color: $couleur-secondaire;
+}
+
+#contact {
+    background-image: url(../img/contact/map-image.png);
+    background-position: center;
+    background-size: cover;
+    background-color: $couleur-primaire;
+}
+
+footer {
+    background-color: $fond-principale;
+    padding: 100px;
+}
+
+footer,
+footer a {
+    color: $couleur-secondaire;
+}
+
+footer .fa {
+    font-size: 30px;
+}
